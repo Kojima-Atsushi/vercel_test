@@ -12,6 +12,8 @@ jobs:
   deploy_preview:
     runs-on: ubuntu-latest
     if: github.event_name == 'pull_request'
+    permissions:
+      pull-requests: write # この行がコメント投稿に必要です
     steps:
       - uses: actions/checkout@v4
       - name: Install Vercel CLI
