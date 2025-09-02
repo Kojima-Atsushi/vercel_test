@@ -5,7 +5,7 @@ export default function Home() {
     <div>
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold text-gray-800 mb-4">
-        CI/CDの最終テスト！
+        CI/CDの最終テスト・ファイナル！
         </h1>
         <p className="text-lg text-gray-600">
           あなたの記事を共有しましょう
